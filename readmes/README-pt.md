@@ -1,8 +1,10 @@
 # Charco
 
----
-
-[English](../README.md) | [Español](README-es.md) | [日本語](README-jp.md)
+<p align="center">
+	<a href="../README.md">English</a> |
+	<a href="README-es.md">Español</a> |
+	<a href="README-jp.md">日本語</a>
+</p>
 
 ---
 

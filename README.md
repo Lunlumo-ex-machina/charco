@@ -4,7 +4,7 @@
 
 [Español](readmes/README-es.md) | [Portugês](readmes/README-pt.md) | [日本語](readmes/README-jp.md)
 
-Charco is a, emm, a character code viewer? ¯\\_(ツ)_/¯
+Charco is a, emm, a character code viewer? ¯\\\_(ツ)\_/¯
 
 ### Examples
 

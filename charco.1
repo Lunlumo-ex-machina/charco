@@ -1,0 +1,38 @@
+.de CW
+.sp
+.nf
+.ft CW
+..
+.de CE
+.ft
+.fi
+.sp
+..
+.TH Charco 1
+.SH NAME
+Charco
+.SH SYNOPSIS
+\fBcharco\fP [\fBOPTIONS\fP]...
+.SH DESCRIPTION
+Character encodings viewer.
+.SH OPTIONS
+\fB\-f\fP, \fB\-\-format\f
+Select a format to output. By default \fIcharco\fB display all formats.
+\fB\-h\fP, \fB\-\-help\fP
+Display this help text.
+\fB\-\-usage\fP
+Display the usage.
+\fB\-v\fP, \fB\-\-version\fP
+Display version information.
+.SH EXAMPLES
+.CW
+# Print all
+$ charco あ
+
+# Print only HTML code
+$ charco -f html ñ
+.CE
+.SH BUGS
+GitHub: https://www.github.com/lunlumo-ex-machina/shexy/issues
+.SH
+The magnificent Lunlumo.

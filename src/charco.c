@@ -21,8 +21,8 @@ void print_utf16(uint32_t ch) {
 }
 
 void printf_charco(uint32_t ch) {
-	setlocale(LC_ALL, "");
-	printf("Character: %lc\n", utf8_decode(ch));
+//	setlocale(LC_ALL, "");
+//	printf("Character: %lc\n", utf8_decode(ch));
 	print_utf8(ch);
 	ch = utf8_decode(ch);
 	print_utf16(utf16_encode(ch));

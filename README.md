@@ -2,7 +2,13 @@
 
 ---
 
-[Español](readmes/README-es.md) | [Portugês](readmes/README-pt.md) | [日本語](readmes/README-jp.md)
+<p allign="centre">
+	<a href="readmes/README-es.md">Español</a> |
+	<a href="readmes/README-pt.md">Portugês</a> |
+	<a href="readmes/README-jp.md">日本語</a>
+</p>
+
+---
 
 Charco is a, emm, a character code viewer? ¯\\\_(ツ)\_/¯
 
@@ -10,7 +16,6 @@ Charco is a, emm, a character code viewer? ¯\\\_(ツ)\_/¯
 
 ```
 charco ñ
-  Character: ñ
   UTF-8: C3B1
   UTF-16: 00F1
   Unicode: U+00F1
@@ -21,6 +26,6 @@ charco -f html 愛
   HTML: &#24859;
 
 charco -f utf8 我
-  UTF-7: E68891
+  UTF-8: E68891
 
 ```

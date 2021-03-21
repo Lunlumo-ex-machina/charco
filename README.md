@@ -8,7 +8,7 @@
 
 ---
 
-Charco is a, emm, a character code viewer? ¯\\\_(ツ)\_/¯
+Charco is a character encoder.
 
 ### Examples
 

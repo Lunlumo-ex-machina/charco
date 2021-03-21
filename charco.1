@@ -14,25 +14,36 @@ Charco
 .SH SYNOPSIS
 \fBcharco\fP [\fBOPTIONS\fP]...
 .SH DESCRIPTION
-Character encodings viewer.
+A character encoder.
 .SH OPTIONS
-\fB\-f\fP, \fB\-\-format\f
-Select a format to output. By default \fIcharco\fB display all formats.
+.TP
+\fB\-f\fP, \fB\-\-format\fP \fIformat\fP 
+Select the output \fIformat\fP. By default charco displays all formats.
+.TP
 \fB\-h\fP, \fB\-\-help\fP
 Display this help text.
+.TP
 \fB\-\-usage\fP
 Display the usage.
+.TP
 \fB\-v\fP, \fB\-\-version\fP
 Display version information.
 .SH EXAMPLES
 .CW
-# Print all
-$ charco あ
+$ charco ñ
+  UTF-8: C3B1
+  UTF-16: 00F1
+  Unicode: U+00F1
+  HTML: &#241;
+  CSS: \00F1
 
-# Print only HTML code
-$ charco -f html ñ
+$ charco -f html 愛
+  HTML: &#24859;
+
+$ charco -f utf8 我
+  UTF-8: E68891
 .CE
 .SH BUGS
 GitHub: https://www.github.com/lunlumo-ex-machina/shexy/issues
-.SH
+.SH AUTHOR
 The magnificent Lunlumo.
